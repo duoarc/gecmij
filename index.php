@@ -18,13 +18,13 @@
 
   </head>
 
-  <body>
+  <body class = "container-bg">
 
     <!-- Navigation -->
 	<!-- I have made a few changes to the nav bar order, so i will make this the uniform standard across the pages when it is finalised-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark nav-mod fixed-top" >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-custom bg-custom nav-mod fixed-top" >
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="logo" src="http://placehold.it/50x50" alt="" placeholder = "logo" >GEC-MIJ Services</a>
+        <a class="navbar-brand" href="index.php"><img class="logo" src="http://placehold.it/50x50" alt="" placeholder = "logo" >GEC-MIJ Services</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

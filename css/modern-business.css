@@ -15,8 +15,8 @@ body {
 }
 
 
-.nav-mod{
-	background-color: blue;
+.container-bg{
+	background-image: url(../brickwall.png);
 }
 .carousel-item {
     height: 65vh;
@@ -31,3 +31,44 @@ body {
 .portfolio-item {
     margin-bottom: 30px;
 }
+.bg-custom{
+	background-color: #433fa3;
+}
+a.bg-custom:focus,a.bg-custom:hover{
+	background-color:#dae0e5
+}
+
+
+
+/*.bg-light{background-color:#f8f9fa!important}a.bg-light:focus,a.bg-light:hover{background-color:#dae0e5!important}*/
+
+
+.navbar-custom .navbar-brand{
+	color:#FFF
+}
+.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover{
+	color:#FFF
+}
+.navbar-custom .navbar-nav .nav-link{
+	color:#FFF
+}
+.navbar-custom .navbar-nav .nav-link:focus,.navbar-custom .navbar-nav .nav-link:hover{
+	color:#FFF
+}
+.navbar-custom .navbar-nav .nav-link.disabled{
+	color:#FFF
+}
+.navbar-custom .navbar-nav .active>.nav-link,.navbar-custom .navbar-nav .nav-link.active,.navbar-custom .navbar-nav .nav-link.show,.navbar-custom .navbar-nav .show>.nav-link{
+	color:#FFF
+}
+.navbar-custom .navbar-toggler{
+	color:#FFF;border-color:rgba(225,225,225)
+}
+.navbar-custom .navbar-toggler-icon{
+	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+.navbar-custom .navbar-text{
+	color:rgba(225,225,225)
+}
+
+/*.navbar-light .navbar-brand{color:rgba(0,0,0,.9)}.navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover{color:rgba(0,0,0,.9)}.navbar-light .navbar-nav .nav-link{color:rgba(0,0,0,.5)}.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{color:rgba(0,0,0,.7)}.navbar-light .navbar-nav .nav-link.disabled{color:rgba(0,0,0,.3)}.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{color:rgba(0,0,0,.9)}.navbar-light .navbar-toggler{color:rgba(0,0,0,.5);border-color:rgba(0,0,0,.1)}.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")}.navbar-light .navbar-text{color:rgba(0,0,0,.5)}*/
