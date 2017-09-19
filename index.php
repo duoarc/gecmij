@@ -24,7 +24,7 @@
 	<!-- I have made a few changes to the nav bar order, so i will make this the uniform standard across the pages when it is finalised-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-custom bg-custom nav-mod fixed-top" >
       <div class="container">
-        <a class="navbar-brand" href="index.php"><img class="logo" src="http://placehold.it/50x50" alt="" placeholder = "logo" >GEC-MIJ Services</a>
+        <a class="navbar-brand font-weight-bold" href="index.php" style="font-family:sans-serif;font-size:30px"><img class="logo" src="http://placehold.it/50x50" alt="" placeholder = "logo" >GEC-MIJ Services</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,12 +38,12 @@
             </li>
 			<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
+                Portfolio
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolio-1-col.html">Key Projects</a>
-                <a class="dropdown-item" href="portfolio-2-col.html">Ongoing Projects</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">Union Bank Projects</a>
+                <a class="dropdown-item-custom" href="portfolio-1-col.html">Completed Projects</a>
+                <a class="dropdown-item-custom" href="portfolio-2-col.html">Ongoing Projects</a>
+                <a class="dropdown-item-custom" href="portfolio-3-col.html">Machineries and Equipments</a>
 			  </div>
             </li>
 			<li class="nav-item">
@@ -127,41 +127,41 @@
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Construction</h4>
+            <a href="#"><h4 class="card-custom" style = "font" >Construction</h4></a>
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More...</a>
+              <a href="#"><button class =" btn btn-custom">See More...</button></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Renovation and Remodelling</h4>
+            <a href="#"><h4 class="card-custom">Renovation and Remodelling</h4></a>
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More...</a>
+				<a href="#"><button class =" btn btn-custom">See More...</button></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header">Procurement</h4>
+            <a href="#"><h4 class="card-custom">Procurement</h4></a>
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Learn More...</a>
+				<a href="#"><button class =" btn btn-custom">See More...</button></a>
             </div>
           </div>
         </div>
       </div>
       <!-- /.row -->
 
-      <!-- Portfolio Section -->
+      <!-- Portfolio Section
       <h2>Projects</h2>
 
       <div class="row">
@@ -232,7 +232,7 @@
           </div>
         </div>
       </div>
-      <!-- /.row -->
+       /.row -->
 
 	  <!-- Features Section
       <div class="row">
@@ -267,13 +267,13 @@
             <abbr title="Phone">P<!--fontawesome--></abbr>: (234) 803-322-2013
 			<span></span>
 			<abbr title="Email">E<!--fontawesome--></abbr>:
-            <a href="mailto:gecmij2003@yahoo.com">gecmij2003@yahoo.com
+			<a href="mailto:contact@gecmij.com.ng">contact@gecmij.com.ng
             </a>
 			<br>
             <abbr title="Hours">H<!--fontawesome--></abbr>: Monday - Friday: 8:00 AM to 5:00 PM</p>
         </div>
         <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="contact.html">Contact us</a>
+          <a href="contact.html"><button class="btn btn-lg btn-custom btn-block">Contact us</button></a>
         </div>
       </div>
 
@@ -281,10 +281,13 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="row py-5-custom bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; gec-mij services 2017</p>
+        <p class="m-0 text-center text-secondary">Copyright &copy; gec-mij services 2017</p>
       </div>
+  	  <div class = "row py-5-custom container-bg">
+		  <p> </p>
+	  </div>
       <!-- /.container -->
     </footer>
 
